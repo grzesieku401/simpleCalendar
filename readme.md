@@ -1,0 +1,1 @@
+The simple calendar project created to improve my js skills.

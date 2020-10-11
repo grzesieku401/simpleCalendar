@@ -1,0 +1,104 @@
+body{
+    
+    font-family: 'Philosopher', sans-serif;
+}
+
+header{
+    background-color: #1976D2;
+    height: 110px;
+    text-align: center;
+}
+
+.page-title{
+    color: white;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+main{
+    height: 600px;
+    background-color: #F5F5F5;
+    font-family: 'Actor', sans-serif;
+}
+
+footer{
+    height: 60px;
+    background-color: #757575;
+}
+
+.container-calendar{
+    height: 500px;
+    padding: 30px;
+}
+
+.calendar{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.calendar-header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+}
+.calendar-header span,
+.calendar-header h2{
+    padding: 6px;
+}
+
+.calendar-header span{
+    background-color: #cbccce;
+    color: #424242;
+}
+
+
+.calendar-header h2{
+    font-weight: bold;
+    background-color: #616161;
+    color: #EEEEEE;
+}
+.calendar-header span:hover{
+    background-color: #e7eaee;
+}
+
+.calendar-days-titles,
+.calendar-days-days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.calendar-days-titles{
+    background-color: #757575;
+    color: #ECEFF1;
+
+}
+
+.calendar-days-titles span,
+.calendar-days-days span{
+    padding: 15px; 
+}
+
+.calendar-days-titles span{
+    border:none
+}
+
+.calendar-days-days span{
+    background-color: #BDBDBD;
+}
+
+.calendar-days-days span:hover{
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+footer p{
+    font-family: 'Actor', sans-serif;
+    font-size: 0.7rem;
+    padding: 20px;
+    text-align: center;
+    color: #212121;
+}

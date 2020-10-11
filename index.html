@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Philosopher&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c1a856ce0f.js" crossorigin="anonymous"></script>
     <title>Simple calendar</title>
 </head>
 <body>
+    <header>
+        <h1 class="page-title">Simple Calendar</h1>
+    </header>
+    <main>
+        <div class="container-calendar">
+            <div class="calendar">
+                <section class="calendar-header">
+                    <span class="year-prev fas fa-caret-left"></span>
+                    <h2 class="year-header"></h2>
+                    <span class="year-next fas fa-caret-right"></span>
+                    <span class="month-prev fas fa-caret-left"></span>
+                    <h2 class="month-header"></h2>
+                    <span class="month-next fas fa-caret-right"></span>
+                </section>
+                <section class="calendar-days">
+                    <section class="calendar-days-titles">
+                        <span class="days">Mo</span>
+                        <span class="days">Tu</span>
+                        <span class="days">We</span>
+                        <span class="days">Th</span>
+                        <span class="days">Fr</span>
+                        <span class="days">Sa</span>
+                        <span class="days">Su</span>
+                    </section>
+                    <section class="calendar-days-days">                      
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class="container-details"></div>
+    </main>
+    <footer>
+        <p class="site-copy">Made by Regis</p>
+    </footer>
     
     <script src="js/scripts.js"></script>
 </body>

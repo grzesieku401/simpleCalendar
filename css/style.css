@@ -61,6 +61,7 @@ footer{
 }
 .calendar-header span:hover{
     background-color: #e7eaee;
+    transition: .6s;
 }
 
 .calendar-days-titles,
@@ -87,12 +88,13 @@ footer{
 }
 
 .calendar-days-days span{
-    background-color: #BDBDBD;
+    background-color: #BDBDBD; 
 }
 
 .calendar-days-days span:hover{
     background-color: #E0E0E0;
     cursor: pointer;
+    transition-duration: .6s;
 }
 
 footer p{

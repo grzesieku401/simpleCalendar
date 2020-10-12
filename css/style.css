@@ -16,7 +16,7 @@ header{
 }
 
 main{
-    height: 600px;
+    height: 520px;
     background-color: #F5F5F5;
     font-family: 'Actor', sans-serif;
 }
@@ -89,12 +89,18 @@ footer{
 
 .calendar-days-days span{
     background-color: #BDBDBD; 
+    min-height: 20px;
 }
 
 .calendar-days-days span:hover{
     background-color: #E0E0E0;
     cursor: pointer;
     transition-duration: .6s;
+    back
+}
+
+.calendar-days-days .picked{
+    background-color: #c97272;
 }
 
 footer p{
